@@ -16,5 +16,10 @@ namespace GiaoDien
         {
             InitializeComponent();
         }
+
+        private void monthCalendarAdv1_ItemClick(object sender, EventArgs e)
+        {
+            MessageBox.Show(MCLDLich.SelectedDate.ToShortDateString()); 
+        }
     }
 }

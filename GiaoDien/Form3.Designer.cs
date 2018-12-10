@@ -28,42 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.monthCalendarAdv1 = new DevComponents.Editors.DateTimeAdv.MonthCalendarAdv();
+            this.MCLDLich = new DevComponents.Editors.DateTimeAdv.MonthCalendarAdv();
             this.SuspendLayout();
             // 
-            // monthCalendarAdv1
+            // MCLDLich
             // 
-            this.monthCalendarAdv1.AutoSize = true;
-            // 
-            // 
-            // 
-            this.monthCalendarAdv1.BackgroundStyle.Class = "MonthCalendarAdv";
-            this.monthCalendarAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.MCLDLich.AutoSize = true;
             // 
             // 
             // 
-            this.monthCalendarAdv1.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.monthCalendarAdv1.ContainerControlProcessDialogKey = true;
-            this.monthCalendarAdv1.DisplayMonth = new System.DateTime(2018, 12, 1, 0, 0, 0, 0);
-            this.monthCalendarAdv1.Location = new System.Drawing.Point(57, 43);
-            this.monthCalendarAdv1.Name = "monthCalendarAdv1";
+            this.MCLDLich.BackgroundStyle.Class = "MonthCalendarAdv";
+            this.MCLDLich.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
             // 
-            this.monthCalendarAdv1.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.monthCalendarAdv1.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.monthCalendarAdv1.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.monthCalendarAdv1.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.monthCalendarAdv1.Size = new System.Drawing.Size(170, 131);
-            this.monthCalendarAdv1.TabIndex = 0;
-            this.monthCalendarAdv1.Text = "monthCalendarAdv1";
+            this.MCLDLich.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.MCLDLich.ContainerControlProcessDialogKey = true;
+            this.MCLDLich.DisplayMonth = new System.DateTime(2018, 12, 1, 0, 0, 0, 0);
+            this.MCLDLich.Location = new System.Drawing.Point(57, 43);
+            this.MCLDLich.Name = "MCLDLich";
+            // 
+            // 
+            // 
+            this.MCLDLich.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.MCLDLich.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.MCLDLich.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.MCLDLich.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.MCLDLich.Size = new System.Drawing.Size(170, 131);
+            this.MCLDLich.TabIndex = 0;
+            this.MCLDLich.Text = "monthCalendarAdv1";
+            this.MCLDLich.ItemClick += new System.EventHandler(this.monthCalendarAdv1_ItemClick);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.monthCalendarAdv1);
+            this.Controls.Add(this.MCLDLich);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form3";
@@ -74,6 +75,6 @@
 
         #endregion
 
-        private DevComponents.Editors.DateTimeAdv.MonthCalendarAdv monthCalendarAdv1;
+        private DevComponents.Editors.DateTimeAdv.MonthCalendarAdv MCLDLich;
     }
 }
