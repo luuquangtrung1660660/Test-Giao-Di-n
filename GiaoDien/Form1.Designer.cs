@@ -59,7 +59,7 @@
             this.sideNav1.Padding = new System.Windows.Forms.Padding(1);
             this.sideNav1.Size = new System.Drawing.Size(400, 452);
             this.sideNav1.TabIndex = 0;
-            this.sideNav1.Text = "sideNav1";
+            this.sideNav1.Text = "Test";
             // 
             // sideNavItem1
             // 
